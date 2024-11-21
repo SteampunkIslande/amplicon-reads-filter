@@ -1,0 +1,11 @@
+[package]
+name = "amplicon-reads-filter"
+version = "0.1.0"
+edition = "2021"
+author = "Charles Monod-Broca"
+
+[dependencies]
+bstr = "1.11.0"
+clap = { version = "4.5.16", features = ["derive"] }
+noodles = { version = "0.85.0", features = ["bed", "bam", "sam", "core", "csi"] }
+rayon = "1.10.0"
